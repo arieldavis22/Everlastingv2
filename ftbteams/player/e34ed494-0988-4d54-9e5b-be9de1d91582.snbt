@@ -1,0 +1,17 @@
+{
+	id: "e34ed494-0988-4d54-9e5b-be9de1d91582"
+	type: "player"
+	player_name: "nerdgraffiti"
+	ranks: {
+		e34ed494-0988-4d54-9e5b-be9de1d91582: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "nerdgraffiti"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFEF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

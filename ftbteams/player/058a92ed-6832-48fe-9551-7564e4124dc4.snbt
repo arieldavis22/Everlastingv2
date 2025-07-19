@@ -1,0 +1,17 @@
+{
+	id: "058a92ed-6832-48fe-9551-7564e4124dc4"
+	type: "player"
+	player_name: "colourgrade"
+	ranks: {
+		058a92ed-6832-48fe-9551-7564e4124dc4: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "colourgrade"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFAE"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
