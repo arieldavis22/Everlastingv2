@@ -3433,8 +3433,10 @@
       "minecraft:ghast": "2025-07-15 00:27:37 -0500",
       "minecraft:magma_cube": "2025-07-15 00:16:24 -0500",
       "minecraft:spider": "2025-07-13 21:42:56 -0500",
+      "minecraft:creeper": "2025-07-20 02:16:40 -0500",
       "minecraft:slime": "2025-07-14 00:51:10 -0500",
       "minecraft:zombified_piglin": "2025-07-15 00:21:59 -0500",
+      "minecraft:witch": "2025-07-20 01:36:52 -0500",
       "minecraft:wither_skeleton": "2025-07-14 23:48:09 -0500",
       "minecraft:husk": "2025-07-13 21:39:48 -0500",
       "minecraft:silverfish": "2025-07-14 00:32:23 -0500",
@@ -16273,6 +16275,12 @@
     },
     "done": true
   },
+  "techreborn:recipes/extractor/gunpowder_from_tnt": {
+    "criteria": {
+      "has_tnt": "2025-07-19 00:17:00 -0500"
+    },
+    "done": true
+  },
   "techreborn:recipes/misc/crafting_table/storage_block/yellow_garnet_storage_block": {
     "criteria": {
       "has_yellow_garnet_gem": "2025-07-19 00:23:58 -0500"
@@ -16291,15 +16299,273 @@
     },
     "done": true
   },
-  "techreborn:recipes/extractor/gunpowder_from_tnt": {
-    "criteria": {
-      "has_tnt": "2025-07-19 00:17:00 -0500"
-    },
-    "done": true
-  },
   "techreborn:recipes/misc/crafting_table/small_dust/sphalerite_small_dust_from_dust": {
     "criteria": {
       "has_sphalerite_dust": "2025-07-19 00:23:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-07-20 01:30:09 -0500"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/redstone_from_smelting_raw_redstone_block": {
+    "criteria": {
+      "has_raw_redstone_block": "2025-07-20 01:41:02 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/machine/lamp_incandescent": {
+    "criteria": {
+      "has_copper_cable": "2025-07-20 02:31:44 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_fluxfield": {
+    "criteria": {
+      "has_item": "2025-07-20 02:00:46 -0500"
+    },
+    "done": true
+  },
+  "herbalbrews:recipes/jug": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "vinery:recipes/loam": {
+    "criteria": {
+      "has_clay_ball": "2025-07-20 01:24:50 -0500"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_fluix_clean": {
+    "criteria": {
+      "has_smart_cable": "2025-07-20 02:30:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/fel_pumpkin": {
+    "criteria": {
+      "has_item": "2025-07-20 02:16:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2025-07-20 02:16:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "techreborn:coppercable": {
+    "criteria": {
+      "crit_0": "2025-07-20 02:31:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-07-20 02:16:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/industrial_grinder/galena_dust_from_galena_ore_with_mercury": {
+    "criteria": {
+      "has_tag_c_galena_ores": "2025-07-20 01:40:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/compressor/redstone_plate": {
+    "criteria": {
+      "has_redstone_block": "2025-07-20 02:00:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-07-20 01:28:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-07-20 01:24:50 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pumpkin_soup": {
+    "criteria": {
+      "has_pumpkin": "2025-07-20 02:16:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-07-20 01:24:50 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/centrifuge/pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2025-07-20 02:16:54 -0500"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/redstone_from_blasting_raw_redstone_block": {
+    "criteria": {
+      "has_raw_redstone_block": "2025-07-20 01:41:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-07-20 02:00:46 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/cable/insulated_copper_cable_shapeless": {
+    "criteria": {
+      "has_copper": "2025-07-20 02:31:44 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pumpkin_bars": {
+    "criteria": {
+      "has_pumpkin": "2025-07-20 02:16:54 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/industrial_grinder/redstone_from_redstone_ore_with_water": {
+    "criteria": {
+      "has_tag_c_redstone_ores": "2025-07-20 01:41:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-07-20 02:16:54 -0500"
+    },
+    "done": true
+  },
+  "indrev:nikolite": {
+    "criteria": {
+      "checkInv": "2025-07-20 01:55:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-07-20 02:32:59 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/implosion_compressor/red_garnet_dust": {
+    "criteria": {
+      "has_redstone_block": "2025-07-20 02:00:46 -0500"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/orange_dye_from_mallow": {
+    "criteria": {
+      "has_mallow": "2025-07-20 02:04:26 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/extractor/string_from_banner": {
+    "criteria": {
+      "has_banner": "2025-07-20 01:28:11 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/extractor/bucket_from_lava_bucket": {
+    "criteria": {
+      "has_lava_bucket": "2025-07-20 01:30:09 -0500"
     },
     "done": true
   },
