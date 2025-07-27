@@ -3598,6 +3598,7 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2025-07-13 20:37:59 -0500",
+      "opened_shulker": "2025-07-27 17:45:32 -0500",
       "opened_chest": "2025-07-13 20:17:57 -0500"
     },
     "done": false
@@ -22664,39 +22665,21 @@
     },
     "done": true
   },
+  "betterend:village": {
+    "criteria": {
+      "end_village": "2025-07-24 22:36:55 -0500"
+    },
+    "done": true
+  },
   "adventurez:recipes/chorus_fruit_on_a_stick_recipe": {
     "criteria": {
       "got_the_chorus_fruit": "2025-07-24 22:40:53 -0500"
     },
     "done": true
   },
-  "minecells:book/mobs/sewers_tentacle": {
+  "minecraft:recipes/misc/popped_chorus_fruit": {
     "criteria": {
-      "requirement": "2025-07-24 23:33:45 -0500"
-    },
-    "done": true
-  },
-  "soulsweapons:draugr_boss": {
-    "criteria": {
-      "condition_0": "2025-07-24 23:55:52 -0500"
-    },
-    "done": false
-  },
-  "betterend:recipes/misc/aeternium_pickaxe_head": {
-    "criteria": {
-      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/aeternium_axe_head": {
-    "criteria": {
-      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
-    "criteria": {
-      "bosses_of_mass_destruction:void_blossom": "2025-07-25 00:18:41 -0500"
+      "has_chorus_fruit": "2025-07-24 22:40:53 -0500"
     },
     "done": true
   },
@@ -22706,57 +22689,15 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/aeternium_shovel_head": {
+  "minecraft:recipes/decorations/end_rod": {
     "criteria": {
-      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
+      "has_chorus_fruit_popped": "2025-07-24 22:51:37 -0500"
     },
     "done": true
   },
-  "minecells:conjunctivius": {
+  "twigs:recipes/paper_lanterns/crimson_roots_paper_lantern": {
     "criteria": {
-      "conjunctivius_killed": "2025-07-24 23:34:38 -0500"
-    },
-    "done": true
-  },
-  "soulsweapons:lords_on_stick": {
-    "criteria": {
-      "withered_wabbajack": "2025-07-24 23:22:31 -0500"
-    },
-    "done": false
-  },
-  "minecells:unlock/kill_conjunctivius": {
-    "criteria": {
-      "concierge_killed": "2025-07-24 23:34:38 -0500"
-    },
-    "done": true
-  },
-  "adventurez:blackstone_golem_advancement": {
-    "criteria": {
-      "golemkill": "2025-07-24 23:21:58 -0500"
-    },
-    "done": true
-  },
-  "minecells:insufferable_crypt": {
-    "criteria": {
-      "requirement": "2025-07-24 23:32:38 -0500"
-    },
-    "done": true
-  },
-  "betterend:village": {
-    "criteria": {
-      "end_village": "2025-07-24 22:36:55 -0500"
-    },
-    "done": true
-  },
-  "betterend:aeternium_plate": {
-    "criteria": {
-      "got_aeternium_plate": "2025-07-24 23:45:30 -0500"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/aeternium_block": {
-    "criteria": {
-      "has_aeternium_ingot": "2025-07-24 23:45:33 -0500"
+      "has_item": "2025-07-24 23:08:41 -0500"
     },
     "done": true
   },
@@ -22772,27 +22713,9 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/aeternium_hammer_head": {
+  "adventurez:blackstone_golem_advancement": {
     "criteria": {
-      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
-    },
-    "done": true
-  },
-  "simplyswords:runic_weapon": {
-    "criteria": {
-      "requirement": "2025-07-24 23:57:18 -0500"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/aeternium_hoe_head": {
-    "criteria": {
-      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
-    },
-    "done": true
-  },
-  "twigs:recipes/paper_lanterns/crimson_roots_paper_lantern": {
-    "criteria": {
-      "has_item": "2025-07-24 23:08:41 -0500"
+      "golemkill": "2025-07-24 23:21:58 -0500"
     },
     "done": true
   },
@@ -22802,15 +22725,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_rod": {
+  "soulsweapons:lords_on_stick": {
     "criteria": {
-      "has_chorus_fruit_popped": "2025-07-24 22:51:37 -0500"
+      "withered_wabbajack": "2025-07-24 23:22:31 -0500"
+    },
+    "done": false
+  },
+  "minecells:insufferable_crypt": {
+    "criteria": {
+      "requirement": "2025-07-24 23:32:38 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
+  "minecells:book/mobs/sewers_tentacle": {
     "criteria": {
-      "has_chorus_fruit": "2025-07-24 22:40:53 -0500"
+      "requirement": "2025-07-24 23:33:45 -0500"
+    },
+    "done": true
+  },
+  "minecells:conjunctivius": {
+    "criteria": {
+      "conjunctivius_killed": "2025-07-24 23:34:38 -0500"
+    },
+    "done": true
+  },
+  "minecells:unlock/kill_conjunctivius": {
+    "criteria": {
+      "concierge_killed": "2025-07-24 23:34:38 -0500"
+    },
+    "done": true
+  },
+  "betterend:aeternium_plate": {
+    "criteria": {
+      "got_aeternium_plate": "2025-07-24 23:45:30 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_pickaxe_head": {
+    "criteria": {
+      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_axe_head": {
+    "criteria": {
+      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_shovel_head": {
+    "criteria": {
+      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_block": {
+    "criteria": {
+      "has_aeternium_ingot": "2025-07-24 23:45:33 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_hammer_head": {
+    "criteria": {
+      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_hoe_head": {
+    "criteria": {
+      "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
     },
     "done": true
   },
@@ -22823,6 +22806,150 @@
   "betterend:recipes/misc/aeternium_sword_blade": {
     "criteria": {
       "has_item.betterend.aeternium_ingot": "2025-07-24 23:45:33 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:draugr_boss": {
+    "criteria": {
+      "condition_0": "2025-07-24 23:55:52 -0500"
+    },
+    "done": false
+  },
+  "simplyswords:runic_weapon": {
+    "criteria": {
+      "requirement": "2025-07-24 23:57:18 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:void_blossom": "2025-07-25 00:18:41 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_plate": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_trapdoor": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "prominent:molten_core": {
+    "criteria": {
+      "requirement": "2025-07-27 18:15:31 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_crafting_table": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/mob_ward": {
+    "criteria": {
+      "has_obsidian_heart": "2025-07-27 17:45:37 -0500"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cactus_smithing": {
+    "criteria": {
+      "has_cactus": "2025-07-27 17:53:34 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/pythadendron_wall": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_barrel": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_pedestal": {
+    "criteria": {
+      "has_purpur_pillar": "2025-07-27 17:50:58 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/assembling_machine/elytra": {
+    "criteria": {
+      "has_end_rod": "2025-07-27 17:58:30 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_button": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/pythadendron_stairs": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_door": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sponge": {
+    "criteria": {
+      "has_sponge": "2025-07-27 17:34:26 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/betterend/sign_post_pythadendron": {
+    "criteria": {
+      "has_item": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/pythadendron_slab": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/parts/shulker_shell": {
+    "criteria": {
+      "has_purpur_pillar": "2025-07-27 17:50:58 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:end/obsidilith_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:obsidilith": "2025-07-27 17:45:24 -0500"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2025-07-27 17:45:32 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/earthdive_spear": {
+    "criteria": {
+      "has_obsidian_heart": "2025-07-27 17:45:37 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_chest": {
+    "criteria": {
+      "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
     },
     "done": true
   },
