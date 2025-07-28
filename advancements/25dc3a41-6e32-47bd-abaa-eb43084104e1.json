@@ -11093,6 +11093,7 @@
   "soulsweapons:all_weapons": {
     "criteria": {
       "withered_wabbajack": "2025-07-24 23:22:31 -0500",
+      "moonlight_greatsword": "2025-07-27 18:44:07 -0500",
       "darkin_blade": "2025-07-15 00:37:43 -0500",
       "draugr": "2025-07-24 23:55:56 -0500"
     },
@@ -22827,6 +22828,48 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/sponge": {
+    "criteria": {
+      "has_sponge": "2025-07-27 17:34:26 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:end/obsidilith_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:obsidilith": "2025-07-27 17:45:24 -0500"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2025-07-27 17:45:32 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/mob_ward": {
+    "criteria": {
+      "has_obsidian_heart": "2025-07-27 17:45:37 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/earthdive_spear": {
+    "criteria": {
+      "has_obsidian_heart": "2025-07-27 17:45:37 -0500"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_pedestal": {
+    "criteria": {
+      "has_purpur_pillar": "2025-07-27 17:50:58 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/crafting_table/parts/shulker_shell": {
+    "criteria": {
+      "has_purpur_pillar": "2025-07-27 17:50:58 -0500"
+    },
+    "done": true
+  },
   "betterend:recipes/redstone/pythadendron_plate": {
     "criteria": {
       "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
@@ -22839,27 +22882,9 @@
     },
     "done": true
   },
-  "prominent:molten_core": {
-    "criteria": {
-      "requirement": "2025-07-27 18:15:31 -0500"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/pythadendron_crafting_table": {
     "criteria": {
       "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:recipes/mob_ward": {
-    "criteria": {
-      "has_obsidian_heart": "2025-07-27 17:45:37 -0500"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/cactus_smithing": {
-    "criteria": {
-      "has_cactus": "2025-07-27 17:53:34 -0500"
     },
     "done": true
   },
@@ -22872,18 +22897,6 @@
   "betterend:recipes/decorations/pythadendron_barrel": {
     "criteria": {
       "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/purpur_pedestal": {
-    "criteria": {
-      "has_purpur_pillar": "2025-07-27 17:50:58 -0500"
-    },
-    "done": true
-  },
-  "techreborn:recipes/assembling_machine/elytra": {
-    "criteria": {
-      "has_end_rod": "2025-07-27 17:58:30 -0500"
     },
     "done": true
   },
@@ -22905,12 +22918,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/sponge": {
-    "criteria": {
-      "has_sponge": "2025-07-27 17:34:26 -0500"
-    },
-    "done": true
-  },
   "supplementaries:recipes/decorations/betterend/sign_post_pythadendron": {
     "criteria": {
       "has_item": "2025-07-27 17:51:01 -0500"
@@ -22923,33 +22930,105 @@
     },
     "done": true
   },
-  "techreborn:recipes/crafting_table/parts/shulker_shell": {
-    "criteria": {
-      "has_purpur_pillar": "2025-07-27 17:50:58 -0500"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:end/obsidilith_defeat": {
-    "criteria": {
-      "bosses_of_mass_destruction:obsidilith": "2025-07-27 17:45:24 -0500"
-    },
-    "done": true
-  },
-  "lootr:1shulker": {
-    "criteria": {
-      "opened_shulker": "2025-07-27 17:45:32 -0500"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:recipes/earthdive_spear": {
-    "criteria": {
-      "has_obsidian_heart": "2025-07-27 17:45:37 -0500"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/pythadendron_chest": {
     "criteria": {
       "has_pythadendron_planks": "2025-07-27 17:51:01 -0500"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cactus_smithing": {
+    "criteria": {
+      "has_cactus": "2025-07-27 17:53:34 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/assembling_machine/elytra": {
+    "criteria": {
+      "has_end_rod": "2025-07-27 17:58:30 -0500"
+    },
+    "done": true
+  },
+  "prominent:molten_core": {
+    "criteria": {
+      "requirement": "2025-07-27 18:15:31 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_glaive": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_double_greatsword": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_sword": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:moonlight_tools": {
+    "criteria": {
+      "moonlight_greatsword": "2025-07-27 18:44:07 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_leggings": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:all_moonlight_weapons": {
+    "criteria": {
+      "moonlight_greatsword": "2025-07-27 18:44:07 -0500"
+    },
+    "done": false
+  },
+  "soulsweapons:recipes/combat/soul_ingot_helmet": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_boots": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_helmet": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_boots": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_leggings": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:04 -0500"
     },
     "done": true
   },

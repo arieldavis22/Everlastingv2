@@ -112,6 +112,7 @@
       "redstone_caves": "2025-07-13 22:27:51 -0500",
       "scorching_caves": "2025-07-14 00:50:20 -0500",
       "grassy_beach": "2025-07-22 21:00:21 -0500",
+      "rocky_meadow": "2025-07-27 18:43:10 -0500",
       "mycotoxic_undergrowth": "2025-07-22 22:59:34 -0500",
       "frozen_pine_taiga": "2025-07-24 23:37:53 -0500",
       "maple_forest": "2025-07-26 22:48:30 -0500",
@@ -154,6 +155,7 @@
       "frozen_tundra": "2025-07-26 23:14:01 -0500",
       "rocky_reef": "2025-07-24 19:34:35 -0500",
       "grassy_beach": "2025-07-22 21:00:21 -0500",
+      "rocky_meadow": "2025-07-27 18:43:10 -0500",
       "frozen_pine_taiga": "2025-07-24 23:37:53 -0500",
       "maple_forest": "2025-07-26 22:48:30 -0500",
       "tropical_river": "2025-07-13 20:55:25 -0500",
@@ -13756,6 +13758,7 @@
   },
   "soulsweapons:all_weapons": {
     "criteria": {
+      "moonlight_greatsword": "2025-07-27 18:44:17 -0500",
       "darkin_blade": "2025-07-15 00:38:03 -0500"
     },
     "done": false
@@ -23925,6 +23928,20 @@
     },
     "done": true
   },
+  "friendsandfoes:adventure/kill_iceologer": {
+    "criteria": {
+      "killed_iceologer": "2025-07-27 17:02:25 -0500"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_evoker": "2025-07-27 17:06:19 -0500",
+      "killed_illusioner": "2025-07-27 17:10:56 -0500",
+      "killed_iceologer": "2025-07-27 17:02:25 -0500"
+    },
+    "done": true
+  },
   "fwaystones:recipes/void_totem": {
     "criteria": {
       "has_totem_of_undying": "2025-07-27 17:07:57 -0500"
@@ -23937,33 +23954,9 @@
     },
     "done": true
   },
-  "prominent:molten_core": {
-    "criteria": {
-      "requirement": "2025-07-27 18:06:30 -0500"
-    },
-    "done": true
-  },
-  "friendsandfoes:adventure/kill_iceologer": {
-    "criteria": {
-      "killed_iceologer": "2025-07-27 17:02:25 -0500"
-    },
-    "done": true
-  },
   "mcda:recipes/unique_armors/gilded_glory_boots": {
     "criteria": {
       "has_upgrade_item": "2025-07-27 17:07:57 -0500"
-    },
-    "done": true
-  },
-  "techreborn:recipes/centrifuge/enchanted_golden_apple": {
-    "criteria": {
-      "has_enchanted_golden_apple": "2025-07-27 17:33:06 -0500"
-    },
-    "done": true
-  },
-  "modern_industrialization:nuke": {
-    "criteria": {
-      "checkInv": "2025-07-27 17:16:58 -0500"
     },
     "done": true
   },
@@ -23973,29 +23966,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2025-07-27 17:19:52 -0500"
-    },
-    "done": true
-  },
-  "friendsandfoes:adventure/the_magicians": {
-    "criteria": {
-      "killed_evoker": "2025-07-27 17:06:19 -0500",
-      "killed_illusioner": "2025-07-27 17:10:56 -0500",
-      "killed_iceologer": "2025-07-27 17:02:25 -0500"
-    },
-    "done": true
-  },
   "mcda:recipes/unique_armors/royal_guard_armor_boots": {
     "criteria": {
       "has_upgrade_item": "2025-07-27 17:07:57 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2025-07-27 17:21:47 -0500"
     },
     "done": true
   },
@@ -24005,63 +23978,15 @@
     },
     "done": true
   },
-  "techreborn:nuke": {
-    "criteria": {
-      "crit_0": "2025-07-27 17:18:22 -0500"
-    },
-    "done": true
-  },
-  "techreborn:recipes/assembling_machine/elytra": {
-    "criteria": {
-      "has_end_rod": "2025-07-27 17:55:37 -0500"
-    },
-    "done": true
-  },
-  "graveyard:graveyard/root": {
-    "criteria": {
-      "grave_03": "2025-07-27 18:22:25 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sponge": {
-    "criteria": {
-      "has_wet_sponge": "2025-07-27 17:35:55 -0500"
-    },
-    "done": true
-  },
   "mcda:recipes/unique_armors/royal_guard_armor_chestplate": {
     "criteria": {
       "has_upgrade_item": "2025-07-27 17:07:57 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
-    "criteria": {
-      "has_enchanted_golden_apple": "2025-07-27 17:33:06 -0500"
-    },
-    "done": true
-  },
-  "botania:recipes/redstone/animated_torch": {
-    "criteria": {
-      "has_item": "2025-07-27 17:19:52 -0500"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
-    "criteria": {
-      "bosses_of_mass_destruction:lich": "2025-07-27 17:40:56 -0500"
-    },
-    "done": true
-  },
   "mcda:recipes/unique_armors/gilded_glory_leggings": {
     "criteria": {
       "has_upgrade_item": "2025-07-27 17:07:57 -0500"
-    },
-    "done": true
-  },
-  "friendsandfoes:adventure/kill_illusioner": {
-    "criteria": {
-      "killed_illusioner": "2025-07-27 17:10:56 -0500"
     },
     "done": true
   },
@@ -24074,6 +23999,276 @@
   "mcda:recipes/unique_armors/gilded_glory_helmet": {
     "criteria": {
       "has_upgrade_item": "2025-07-27 17:07:57 -0500"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_illusioner": {
+    "criteria": {
+      "killed_illusioner": "2025-07-27 17:10:56 -0500"
+    },
+    "done": true
+  },
+  "modern_industrialization:nuke": {
+    "criteria": {
+      "checkInv": "2025-07-27 17:16:58 -0500"
+    },
+    "done": true
+  },
+  "techreborn:nuke": {
+    "criteria": {
+      "crit_0": "2025-07-27 17:18:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-07-27 17:19:52 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/animated_torch": {
+    "criteria": {
+      "has_item": "2025-07-27 17:19:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-07-27 17:21:47 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/centrifuge/enchanted_golden_apple": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-07-27 17:33:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-07-27 17:33:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2025-07-27 17:35:55 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:lich": "2025-07-27 17:40:56 -0500"
+    },
+    "done": true
+  },
+  "techreborn:recipes/assembling_machine/elytra": {
+    "criteria": {
+      "has_end_rod": "2025-07-27 17:55:37 -0500"
+    },
+    "done": true
+  },
+  "prominent:molten_core": {
+    "criteria": {
+      "requirement": "2025-07-27 18:06:30 -0500"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/root": {
+    "criteria": {
+      "grave_03": "2025-07-27 18:22:25 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_glaive": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_double_greatsword": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/translucent_sword": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/silver_bullet": {
+    "criteria": {
+      "has_lost_soul": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:moonlight_tools": {
+    "criteria": {
+      "moonlight_greatsword": "2025-07-27 18:44:17 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_leggings": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:moonknight": {
+    "criteria": {
+      "condition_0": "2025-07-27 18:44:06 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/pure_moonlight_greatsword": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:12 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/hunter_pistol": {
+    "criteria": {
+      "has_lost_soul": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/craft_coffin": {
+    "criteria": {
+      "coffin": "2025-07-27 18:36:26 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/iron_skull": {
+    "criteria": {
+      "has_item": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/roasted_pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin_seed": "2025-07-27 18:36:22 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:all_moonlight_weapons": {
+    "criteria": {
+      "moonlight_greatsword": "2025-07-27 18:44:17 -0500"
+    },
+    "done": false
+  },
+  "soulsweapons:recipes/combat/soul_ingot_helmet": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/building_blocks/infused_blackstone": {
+    "criteria": {
+      "has_item": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_boots": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/building_blocks/soulfire_stain": {
+    "criteria": {
+      "has_item": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/chaos_orb": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:12 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/blunderbuss": {
+    "criteria": {
+      "has_lost_soul": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/decorations/soul_lamp": {
+    "criteria": {
+      "has_item": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/crank": {
+    "criteria": {
+      "has_cobblestone_slab": "2025-07-27 18:36:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_helmet": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_robes_boots": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/soul_ingot_leggings": {
+    "criteria": {
+      "has_item": "2025-07-27 18:44:16 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/decorations/soul_lantern_lost_soul": {
+    "criteria": {
+      "has_item": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/silver_bullet_iron_ingot": {
+    "criteria": {
+      "has_lost_soul": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/misc/soul_ingot": {
+    "criteria": {
+      "has_item": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/building_blocks/cracked_infused_blackstone": {
+    "criteria": {
+      "has_item": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/hunter_cannon": {
+    "criteria": {
+      "has_lost_soul": "2025-07-27 18:42:19 -0500"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/gatling_gun": {
+    "criteria": {
+      "has_lost_soul": "2025-07-27 18:42:19 -0500"
     },
     "done": true
   },
